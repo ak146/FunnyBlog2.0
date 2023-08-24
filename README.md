@@ -1,5 +1,5 @@
 ## Blog site using GitHub Pages and Jekyll
-> This site is intended for Students.   This is to record plans, complete hacks, and do work for your learnings.
+> I have just started adding images and videos into my code
 - This can be customized to support computer science as you work through pathway (JavaScript, Python/Flask, Java/Spring)
 - All tangible artifact work is in a _posts or in a _notebooks.  
 - Front matter (aka meta data) in ipynb and md files is used to organize information according to week and column in running web site.
