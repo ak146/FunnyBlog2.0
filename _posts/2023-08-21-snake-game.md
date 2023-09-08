@@ -120,6 +120,8 @@ tags: [javascript]
         /* Attributes of Game */
         /////////////////////////////////////////////////////////////
         // Canvas & Context
+        const snakeColor = "00FF00"; //green snake color
+        const foodColor = "FF0000" //red color for food
         const canvas = document.getElementById("snake");
         const ctx = canvas.getContext("2d");
         // HTML Game IDs
@@ -311,19 +313,19 @@ tags: [javascript]
         let changeDir = function(key){
             // test key and switch direction
             switch(key) {
-                case 37:    // left arrow
+                case 65:    //  A
                     if (snake_dir !== 1)    // not right
                         snake_next_dir = 3; // then switch left
                     break;
-                case 38:    // up arrow
+                case 87:    //  W
                     if (snake_dir !== 2)    // not down
                         snake_next_dir = 0; // then switch up
                     break;
-                case 39:    // right arrow
+                case 68:    // D
                     if (snake_dir !== 3)    // not left
                         snake_next_dir = 1; // then switch right
                     break;
-                case 40:    // down arrow
+                case 83:    // S
                     if (snake_dir !== 0)    // not up
                         snake_next_dir = 2; // then switch down
                     break;
@@ -332,7 +334,11 @@ tags: [javascript]
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
+            if(x === food.x && y === food.y){
+                ctx.fillStyle = "#FF0000";
+            } else{
+                ctx.fillStyle ="#6CBB3C";
+            }
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
@@ -362,13 +368,14 @@ tags: [javascript]
         // 100 = normal
         // 50 = fast
         let setSnakeSpeed = function(speed_value){
-            snake_speed = speed_value;
+            snake_speed = 75;
         }
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
             if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 1){screen_snake.style.borderColor = "#0C8900";}
         }
+        
     })();
 </script>

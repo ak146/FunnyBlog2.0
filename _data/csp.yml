@@ -1,17 +1,17 @@
 # CSP course meta data
 Unit1:
-  title: Introduction to Tools and Resources
-  description: The initial weeks focus on introducing Tools, Pair Programming, and the AP Resources that we plan to use throughout the year. At the end of Weeks 0-3, students will be exposed to blogging with GitHub Pages; developing with Jupyter Notebooks, Python, JavaScript, HTML, and Code.org AppLab; working with AP classroom and becoming familiar with Create Performance Task project requirements.
+  title: Week 0-2 plans
+  description: On the 0th week we got the github page to run and set computer up. On the first week we customized out github page. On the second week we imported a calculator, snake game, and python quiz using replit. In the fourth week, over the weekend, I will add the python tricks. On Monday I will start making an HTML table.
   start: 0
   end: 3
 Unit2:
-  title: Introduction to Web Development
-  description: Websites are made up of several key parts. Frontend, Backend, Data and Deployment.  The focus for these weeks is to enable students to perform the aspects of constructing and deploying a simple Website. There will be several lectures during this period to provide you with concepts on how to build a WebSite, including working with data from a backend server.
+  title: Week 1 plans
+  description: Week 1 customize the github page.
   start: 4
   end: 7
 Unit3:
-  title:  Web Application, Data, and N@tM
-  description: Student at teams need to build their own Website and Blog their understanding. The Website should include their own interests, but requires use of Python Flask and JavaScript programming.  By the end of the Unit, students will be ready to start many of the technical coding aspects of Web Development, having established a Deployed Website.  In November, the Trimester work will end with a project and student participation in Electives Department "Night at the Museum" (N@tM). 
+  title:  Week 2 plans
+  description: Create a Python quiz using Jupyter Notebook. Import in a Snake Game, Import in a Calculator
   start: 8
   end: 12
 Unit4:
