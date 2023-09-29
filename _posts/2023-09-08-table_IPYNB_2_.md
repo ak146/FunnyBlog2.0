@@ -21,90 +21,90 @@ courses: {'csp': {'week': 3}}
     <table id="md_demo" class="table">
         <thead>
             <tr>
-                <th>Class</th>
-                <th>Order</th>
-                <th>Family</th>
-                <th>Genus</th>
-                <th>Species</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Color</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Actinopetrygii</td>
-                <td>Istiophoriformes</td>
-                <td>Xiphiidae</td>
-                <td>Xhipas</td>
-                <td>X Gladius (Swordfish)</td>
+                <td>Ford</td>
+                <td>Mustang</td>
+                <td>2022</td>
+                <td>Red</td>
+                <td>$35,000</td>
             </tr>
             <tr>
-                <td>Actinopetrygii</td>
-                <td>Scombriformes</td>
-                <td>Scombridae</td>
-                <td>Thunns</td>
-                <td>T. Thynnus (Blue Fin Tuna)</td>
+                <td>Toyota</td>
+                <td>Camry</td>
+                <td>2022</td>
+                <td>Silver</td>
+                <td>$25,000</td>
             </tr>
             <tr>
-                <td>Chonfricthyes</td>
-                <td>Carchardhiniformes</td>
-                <td>Characrhinidae</td>
-                <td>Prionance</td>
-                <td>P. gluaca(Blue Shark)</td>
+                <td>Tesla</td>
+                <td>Model S</td>
+                <td>2022</td>
+                <td>White</td>
+                <td>$80,000</td>
             </tr>
             <tr>
-                <td>Actinopterygii</td>
-                <td>Istiophoroformes</td>
-                <td>Istiophoridae</td>
-                <td>Istiophorus</td>
-                <td>Istiophorus Platyperus (Sail Fish)</td>
+                <td>Cadillac</td>
+                <td>Broughan</td>
+                <td>1969</td>
+                <td>Black</td>
+                <td>$10,000</td>
             </tr>
             <tr>
-                <td>Chondrichthyes</td>
-                <td>Lamniformes</td>
-                <td>Lamnidae</td>
-                <td>Isurus</td>
-                <td>I. Oxyrinchus (Mako Shark)</td>
+                <td>Ford</td>
+                <td>F-350</td>
+                <td>1997</td>
+                <td>Green</td>
+                <td>$15,000</td>
             </tr>
             <tr>
-                <td>Chondrichthyes</td>
-                <td>Carcharhiniformes</td>
-                <td>Galeocerdonidae</td>
-                <td>Galeocerdo</td>
-                <td>G. Cuvier (Tiger Shark)</td>
+                <td>Ford</td>
+                <td>Excursion</td>
+                <td>2003</td>
+                <td>Green</td>
+                <td>$25,000</td>
             </tr>
             <tr>
-                <td>Actinopterygii</td>
-                <td>Pachycormiformes</td>
-                <td>Pachyformidae</td>
-                <td>Leedsichthyes</td>
-                <td>Leedsicthyes Problematicus</td>
+                <td>Ford</td>
+                <td>Ranger</td>
+                <td>2012</td>
+                <td>Red</td>
+                <td>$8,000</td>
             </tr>
             <tr>
-                <td>Chondricthyes</td>
-                <td>Rhinopristiformes</td>
-                <td>Pristidae</td>
-                <td>Anoxypristis</td>
-                <td>A. cuspidata</td>
+                <td>Kuboto</td>
+                <td>L3301 Tractor</td>
+                <td>2015</td>
+                <td>Orange</td>
+                <td>$12,000</td>
             </tr>
             <tr>
-                <td>Chondrichthyes</td>
-                <td>Holocephali</td>
-                <td>Chimaeroformes</td>
-                <td>Chimarae</td>
-                <td>Chimarae Argliroba</td>
+                <td>Ford</td>
+                <td>Fusion Energi</td>
+                <td>2015</td>
+                <td>Guard</td>
+                <td>$25,000</td>
             </tr>
             <tr>
-                <td>Chondrichthyes</td>
-                <td>Hexanchiformes</td>
-                <td>Hexandchiformes</td>
-                <td>Hexanchida</td>
-                <td>H. Griseus</td>
+                <td>Acura</td>
+                <td>XL</td>
+                <td>2006</td>
+                <td>Grey</td>
+                <td>$10,000</td>
             </tr>
             <tr>
-                <td>Actinopterygii</td>
-                <td>Aulopiformes</td>
-                <td>Ipnopidae</td>
-                <td>Bathypterosis</td>
-                <td>B. Grallator</td>
+                <td>Ford</td>
+                <td>F150 Lightning</td>
+                <td>2024</td>
+                <td>Guard</td>
+                <td>$70,000</td>
             </tr>
         </tbody>
     </table>
