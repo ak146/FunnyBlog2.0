@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web Programming Basics
-description: Intro
+description: An introduction to key topics in Web Programming
 courses: {'csp': {'week': 5}}
 type: hacks
 permalink: /basics/home
