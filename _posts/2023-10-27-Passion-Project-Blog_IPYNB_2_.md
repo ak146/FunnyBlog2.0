@@ -8,7 +8,11 @@ courses: {'csp': {'week': 10}}
 type: tangibles
 ---
 
+# PROJECT LINK
+[DEL NORTE GEOGUESSR](https://rliao569.github.io/Frontend-CSP/)
+
 # Issues:
+
 
 
 ## Backend issues
