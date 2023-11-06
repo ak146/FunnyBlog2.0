@@ -52,7 +52,7 @@ PROCEDURE RobotDetour <br>
 - I need to learn encryption again.
 - I need to draw out the code thats being displayed so I can show how the pseudo code great. 
 
-<h3>Question 1</h3>
+<h3>Question 18</h3>
 
 The code segment below is intended to swap the values of the variables first and second using a temporary variable, temp.
 
@@ -60,26 +60,26 @@ The block code consists of 3 lines. Line 1: temp, left arrow, first Line 2: firs
 
 Which of the following can be used to replace missing code so that the code segment works as intended?
 
-#### Answer 1
+#### Answer 18
 **Answer: B**<br>
 I had choosen option A as the code segment assigns the inital value of ***First*** to ***temp***, and then assings the initial value of second to first. The inital value of second which has been store in first is then assigned to second. Therfore the vaule of second has not changed from its original value.
 
 This makes sense as the code is sort of a loop that assignes the same value over and over again, the value of second.
 
-<h3>Question 10</h3>
+<h3>Question 21</h3>
 The procedure One word, Draw Circle, open parenthesis, x comma y comma r, close parenthesis can be used to draw a circle on a coordinate grid. The circle is centered at the coordinate x comma y and has a radius of runits. The procedure will be used to draw the following figure on a coordinate grid.
 
 The figure shows an x y coordinate plane with 3 circles plotted. Each circle has a radius of 2. 1 circle is centered at the coordinate (3, 6), 1 circle is centered at the coordinate (5, 4), and 1 circle is centered at the coordinate (7, 2).
 
 Which of the following code segments can be used to draw the figure?
 
-#### Asnwer 10
+#### Asnwer 21
 **Answer: B**<br>
 I had choosen option C but it turns out that is incorrect as the code segment draws a circle centered at the co-ordinates (7,2) and then moves to the right and up, drawing circles at (9,4) and (11,6). 
 
 The main code change for that woulr be yPos = yPos -2 instead of +2 which i had choosen, ie the cirlce moves down and not up.
 
-<h3>Ouestion 11</h3>
+<h3>Ouestion 24</h3>
 A spinner is divided into three sections. The sector labeled Red is four times as large as each of the sectors labeled Blue and Yellow, which are of equal size.
 
 The figure shows a spinner divided into 3 sections. The sector labeled Red is 4 times as large as each of the sectors labeled Blue and Yellow, which are of equal size.
@@ -90,45 +90,45 @@ The block code consists of 2 lines. Begin block Line 1: PROCEDURE Spinner Line 2
 
 Which of the following can be used to replace missing code so that the procedure correctly simulates the spinner?
 
-#### Answer 11
+#### Answer 24
 **Answer: D**<br>
 I had choosen the option A but the correct answer is option D as the code segment simulates a spinner in which selecting each of the three sections in equally likely. The option which I had choosen assigns a random value spin of 1,3 but with a 1,6 the spinner becomes more even with all colors giving each color more likely the chance to be choosen. And thus option D is the correct answer.
 
 
-<h3> Question 14</h3>
+<h3> Question 25</h3>
 Consider the two programs below.
 
 Program A: The block code consists of 4 lines. Line 1: i, left arrow, 1 Begin block Line 2: REPEAT UNTIL, begin block, i greater than 10, end block Begin block Line 3, indented 1 tab: DISPLAY, begin block, i, end block Line 4, indented 1 tab: i, left arrow, i plus 1 End block End block	Program B: The block code consists of 4 lines. Line 1: i, left arrow, 1 Begin block Line 2: REPEAT UNTIL, begin block, i greater than 10, end block Begin block Line 3, indented 1 tab: i, left arrow, i plus 1 Line 4, indented 1 tab: DISPLAY, begin block, i, end block End block End block
 Which of the following best compares the values displayed by programs A and B?
 
-#### Answer 14
+#### Answer 25
 **Answer: C**
 
 The answer to this is C but I had choosen B instead. This makes sense as the porgram does not oupt the same number of value but a different set of value as the display i and the i = i + 1 are switched which thereby leads to different sets of output values. The correct answer is that both programs display the same number of values but the values themselves differ and the program is st to repeat until i > 10.
 
 
-<h3>Question 17</h3> 
+<h3>Question 27</h3> 
 Which of the following actions could be used to help reduce the digital divide?
 
 I.   Providing free education and training on how to use computing devices
 II.  Providing free or low-cost computing devices to low-income individuals
 III. Providing networks and infrastructure to people in remote areas
 
-#### Answer 17
+#### Answer 27
 **Answer: D**
 I had put I and II but the correct answer is all of them I, II and III. This makes sence as a lack of access to networks contributed to digital divide. The issue can only be addressed by providing networks and infrastructure. And thus by providing all three, free education and training on how to use computing devices, low cost computing decives and network and infrostructure to people in remote areas can help reduce the digital divide.
 
-<h3>Question 20 </h3>
+<h3>Question 29 </h3>
 An application program interface (API) provides a procedure Max, which returns the greater of its two integer arguments.
 
 A programmer would like to find the greatest of three integer values a, b, and c. Which of the following expressions will produce the desired result in every case?
 
 
-#### Answer 20
+#### Answer 29
 **Answer: A**
 I had origianlly put the answer as option b, it being Max(a,b)- Max(b,a) because i thought it would lead to the average value. But that value would be a totally different one. This expression only produces the different between the maximum of A and B and the maximum of b and c. The correct expresion of Max(max(a,b)), makes sense as it first finds the max of a and b then the max of that value and c which ould lead to the code always fiidin gthe greatest of the three interger values a, b and c no matter what the senario is.
 
-<h3>Question 21</h3>
+<h3>Question 30</h3>
 The following question uses a robot in a grid of squares. The robot is represented by a triangle, which is initially facing right.
 
 The figure shows a grid of squares with 4 columns and 8 rows. The square in the first row and third column is gray, and all other squares are white. The square in the fourth row and first column contains a right-facing triangle, representing a robot. A path of arrows shows the robot’s movement from its initial location to the gray square. The path shows the robot moving 2 squares to the right from its initial location, then 3 squares up to the gray square.
@@ -139,19 +139,19 @@ The block code consists of 3 lines. Begin block Line 1: PROCEDURE, Move X Times,
 
 Which of the following code segments will move the robot to the gray square?
 
-#### Answer 21
+#### Answer 30
 **Answer: B**
 This makes sense as the robot moves the robot 2 times forward and then turn to the right thrice and them moves three steps forward. I seem to have missed is by chance as my code segments moves the robot forward three squares, rotates it thrice and move the robot 3 spaces forward. This was a silly error that occured on my behalf, but is a great learning opportunity for psuedo code practice as that focused a lot in the AP exam.
 
-<h3>Question 23</h3>
+<h3>Question 31</h3>
 The following figures represent different ways of configuring a network of physically linked computers labeled P, Q, R, and S. A line between two computers indicates that the computers can communicate directly with each other. In which configuration is it NOT possible to have redundant routing between computers P and S?
 
-#### Answer 23
+#### Answer 31
 **Answer B**
 
 I had origianlly chosen option A thinign that since the question as for there to no possible redundance in the path that was travelled, but as it turns out there are multiple way that the code could've travvled between those four point if and when they are connected that way but if the four point were connected in the way it was said in the answer the only possible route would either be forward or backwards and nothing in the middle and thus reduces the most possible redunances in the code.
 
-<h3>Question 26</h3>
+<h3>Question 33</h3>
 The grid below contains a robot represented as a triangle, initially facing up. The robot can move into a white or gray square but cannot move into a black region.
 
 The figure shows a grid of squares with 5 columns and 4 rows. The square in the fourth row and first column contains an upward-facing triangle, representing a robot. The first row contains all white squares. The second row contains, left to right, white, black, black, black, white. The third row contains, left to right, white, black, gray, white, white. The fourth row contains, left to right, white, black, black, black, white.
@@ -162,31 +162,31 @@ The program consists of 4 lines. Begin program Line 1: REPEAT UNTIL, open parent
 
 Which of the following replacements for missing code can be used to move the robot to the gray square?
 
-#### Answer 26
+#### Answer 33
 **Answer: D**
 This option i had origianlly chosenwas a for the psuedo code question but the correct answer is D. The answer which I had choosen move the robot one sqaure forward from tis inital location and then rotated the robot right. From there, the robot cannot move forward and the body of the if statement is fullfilled and thus the loop does not exicute anymore. The correect option qould be D which moves the robot forawd and right is it is possible, the difference between my code and the correct one was the includion of MOVE_FORWARD () command in the if loop.
 
-<h3>Question 28</h3>
+<h3>Question 34</h3>
 A text-editing application uses binary sequences to represent each of 200 different characters. What is the minimum number of bits needed to assign a unique bit sequence to each of the possible characters?
 
 
-#### Answer 28
+#### Answer 34
 **Answer: D**
 The option that I had origianlly choosen was B ir 6 but using 6 bits will only allow for upto 64 characters and 2 to the 6 is 64 then the question asked for 200 characters and thus 2 to 8 would give you 200 characters and thus 8 bits would be the correct answer.
 
-<h3>Question 29</h3>
+<h3>Question 37</h3>
 The diagram below shows a circuit composed of three logic gates. Each gate takes two inputs and produces a single output.
 
 The figure shows a logic gate with inputs A, B, C, and D. Inputs A and B lead into an AND gate. Inputs C and D lead into an OR gate. The outputs of the AND and OR gates lead into a second OR gate. The output of the second OR gate is labeled output.
 
 For which of the following input values will the circuit have an output of false ?
 
-#### Answer 29
+#### Answer 37
 **Answer: A**
 
 I had origianlly chosen option C which would lead to the result ad the and gate producing an output of false and the first or gate producing an output of true. The second or gate will have one false input and one true input causing the circuit to have an output of true. But this was not the intended output as the intented output was false as thus setting A to true B,C,D to false would lead to two false inputs leading to the overall putput to be false fufillign the requirements for the question.
 
-<h3>Question 31</h3>
+<h3>Question 39</h3>
 The question below uses a robot in a grid of squares. The robot is represented as a triangle, which is initially in the bottom right square of the grid and facing toward the top of the grid.
 
 The figure shows a grid of squares with 5 columns and 5 rows. The bottom right square of the grid contains an upward-facing triangle, representing a robot. The top left square of the grid is shaded gray. All other squares are white.
@@ -196,24 +196,24 @@ The following programs are each intended to move the robot to the gray square. P
 false otherwise.
 Program I: The block code consists of 5 lines. Begin block Line 1: REPEAT 4 TIMES Begin block Line 2, indented 1 tab: MOVE underscore FORWARD Line 3, indented 1 tab: ROTATE underscore LEFT Line 4, indented 1 tab: MOVE underscore FORWARD Line 5, indented 1 tab: ROTATE underscore RIGHT End block End blockProgram II: The block code consists of 5 lines. Begin block Line 1: REPEAT UNTIL, begin block, Goal Reached, 1 word with capital G and R, end block Begin block Line 2, indented 1 tab: IF, begin block, CAN underscore MOVE, begin block, forward, end block, end block Begin block Line 3, indented 2 tabs: MOVE underscore FORWARD End block Line 4, indented 1 tab: ELSE Begin block Line 5, indented 2 tabs: ROTATE underscore LEFT End block End block End block
 
-#### Answer 31
+#### Answer 39
 **Asnwer: C**
 I had originally choosen the option B as my answer but that would be incorrect as program 1 also correctly move the robot tot the gray square by repeatedly moving the robot forward, rotating left, moving forward and rotating right. Thus the correct answer would be that both program 1 and 2 move the robot correctly to teh gray square as both program might look different but produce the same output in the end. Program 1 loops trhough tthe code until the ouput is received but program two sets restrictions which make the robot move in specific spots and block to reach it's final goal of the gray block.
 
 
-<h3>Question 37</h3>
+<h3>Question 42</h3>
 The two code segments below are each intended to display the average of the numbers in the list One word, num List. Assume that One word, num List contains more than one value.
 
 Program I: The block code consists of 5 lines. Line 1: sum, left arrow, zero Begin block Line 2: FOR EACH num IN num List, 1 word with capital L Begin block Line 3, indented 1 tab: sum, left arrow, sum plus num Line 4, indented 1 tab: a v g, 1 word, left arrow, sum divided by LENGTH, begin block, num List, end block End block End block Line 5: DISPLAY, begin block, a v g, end blockProgram II: The block code consists of 5 lines. Line 1: sum, left arrow, zero Begin block Line 2: FOR EACH num IN num List, 1 word with capital L Begin block Line 3, indented 1 tab: sum, left arrow, sum plus num End block End block Line 4: a v g, 1 word, left arrow, sum divided by LENGTH, begin block, num List, end block Line 5: DISPLAY, begin block, a v g, end block
 
 Which of the following best describes the two code segments?
 
-#### Answer 37
+#### Answer 42
 **Answer: D**
 
 I had originally put the answer as C but that would be incorreect as both code segments display the correct average. Code segment 1 requires more airthmetic opration because it performs the operation sum/lenght (numlist) within the loop, while the code segment II performs the same operation only once. And thus both code segments disply the correct average but code segment 1 required more airtmetic operation than code segment 11 and thus the correct answer ould be option C and not option D.
 
-<h3>Question 41</h3>
+<h3>Question 43</h3>
 Grades in a computer science course are based on total points earned on a midterm exam and a final exam. The teacher provides a way for students to improve their course grades if they receive high scores on the final exam: if a student’s final exam score is greater than the student’s midterm exam score, the final exam score replaces the midterm exam score in the calculation of total points.
 
 The table below shows two students’ scores on the midterm and final exams and the calculated total points each student earns.
@@ -226,7 +226,7 @@ A programmer is writing a procedure to calculate a student’s final grade in th
 
 Which of the following could be used in the procedure to calculate a student’s total points earned in the course and store the result in the variable One word, adjusted Total ?
 
-#### Answer 41
+#### Answer 43
 **Answer: B**
 
 I had originally put the answer to this question as A bt this would be incorrect as the expression assigns only one score to the adjustTotal variable but option B which is the adjustedTotal = Max( midterm, finalExam) + final exam assigns the correct variable and also calculates a student's total points earned in the course and store the results in the varible adjustedTotal. And thus for the question above the correcrt answer would be option B

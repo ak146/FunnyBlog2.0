@@ -24,6 +24,38 @@ type: tangibles
 
 
 ```python
+// Timer Code
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10)//calculates the minutes left
+        seconds = parseInt(timer % 60, 10);// calculates second left
+
+        minutes = minutes < 10 ? "0" + minutes : minutes; 
+        seconds = seconds < 10 ? "0" + seconds : seconds; 
+        display.textContent = minutes + ":" + seconds; //displays the time left
+
+        if (--timer < 0) {
+            timer = 0;
+        }
+        if(timer==0){
+            alert("GAME OVER Your Final Score:"+score) //alerts when the game is over
+            window.location.href = 'https://rliao569.github.io/Frontend-CSP/';
+        }
+    }, 1000);
+}
+
+window.onload = function () { //calls the method when the window is opened
+    var time = 120 / 2, // time in seconds
+        display = document.querySelector('#gameTimerDisplay');
+    startTimer(time, display); //display
+    
+};
+```
+
+
+```python
 <!DOCTYPE html>
 <html>
 <head>
