@@ -47,6 +47,11 @@ PROCEDURE RobotDetour <br>
 - open standards?
 - 45: I dont understand the notation
 
+## FOR NEXT TIME
+- I need to slow down and read the questions.
+- I need to learn encryption again.
+- I need to draw out the code thats being displayed so I can show how the pseudo code great. 
+
 <h3>Question 1</h3>
 
 The code segment below is intended to swap the values of the variables first and second using a temporary variable, temp.
