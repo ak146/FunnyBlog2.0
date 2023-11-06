@@ -19,8 +19,9 @@ type: tangibles
 - [Data Table of big game fish](https://ak146.github.io/FunnyBlog2.0//2023/09/08/table_IPYNB_2_.html)
 
 # Plans
-- Add new keybinds to the Snake Game so it doesn't move around the screen while playing. Add new colors
-- Fix Tic Tac Toe as it is still glitching 
-- Finish JS table
-- Add division to calculator.
+- Monday: Add new keybinds to the Snake Game so it doesn't move around the screen while playing. Add new colors
+- Tuesday: ix Tic Tac Toe as it is still glitching 
+- Wednesday: Finish JS table
+- LIVE REVIEW ON THURSDAY
+- Friday: Add division to calculator.
 
