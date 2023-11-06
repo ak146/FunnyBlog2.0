@@ -2,7 +2,7 @@
 toc: True
 comments: True
 layout: post
-title: Individual Review
+title: Passion Project Back End Blog
 description: What we learned this week, and all the amazing things we have accomplished
 courses: {'csp': {'week': 10}}
 type: tangibles
@@ -12,7 +12,7 @@ type: tangibles
 [DEL NORTE GEOGUESSR](https://rliao569.github.io/Frontend-CSP/)
 
 # Issues:
-
+- BY WILLIAM CHENG
 
 
 ## Backend issues
@@ -99,6 +99,22 @@ if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port="8242")
 
 ```
+
+
+    ---------------------------------------------------------------------------
+
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    Cell In[1], line 4
+          1 import threading
+          3 # import "packages" from flask
+    ----> 4 from flask import render_template  # import render_template from "public" flask libraries
+          6 # import "packages" from "this" project
+          7 from __init__ import app,db  # Definitions initialization
+
+
+    ModuleNotFoundError: No module named 'flask'
+
 
 ## the api/locations.py file:
 - The API locations.py is how it handles the requests including put, get, delete, and post requests. For our project, we really only need to have get requests since we don't really need to make any other requests to post any new locations, but we added functionality for it in case we wanted to make it easier to add things to the database. 
@@ -594,6 +610,8 @@ target.addEventListener("click", (event) => {
 
 
 ```python
+
+
 #image-container img {
     position: fixed;
     top: 0;
@@ -612,4 +630,9 @@ const imageContainer = document.getElementById("image-container");
 // Create a new image element
 const image = document.createElement("img");
 image.src = imageSrc;
+```
+
+
+```python
+
 ```
