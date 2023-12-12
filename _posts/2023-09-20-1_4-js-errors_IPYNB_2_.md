@@ -47,6 +47,11 @@ console.log(alphabetList);
     <IPython.core.display.Javascript object>
 
 
+
+```python
+
+```
+
 ### What I Changed
 
 Originally this function printed the a list of numbers from 0-9. Instead I changed the alphabetList.push(i) section to alphabet.push(alphabet[i]) so that instead of printing the numbers, it will bring the letters from variable alphabet. It only takes the letters from 0-9.
