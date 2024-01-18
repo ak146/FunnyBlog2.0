@@ -4,7 +4,7 @@ comments: False
 layout: post
 title: CSP quiz
 description: CSP quiz
-type: plans
+type: tanglibles
 courses: {'csp': {'week': 16}}
 ---
 

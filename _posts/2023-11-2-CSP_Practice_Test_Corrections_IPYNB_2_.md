@@ -5,7 +5,7 @@ layout: post
 title: Collegeboard/Psuedo Code
 description: Practice test corrections and Psuedo code
 type: tangibles
-courses: {'csp': {'week': 11}}
+courses: {'csp': {'week': 15}}
 ---
 
 ## [Pseudo Code](https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-exam-reference-sheet.pdf)

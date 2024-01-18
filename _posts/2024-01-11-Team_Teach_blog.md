@@ -9,9 +9,23 @@ courses: {'csp': {'week': 14}}
 ---
 
 ## Things I did
-- [Binary Ideation](https://davidl0914.github.io/TheIdealGam/2023/11/15/binary-mini-game_IPYNB_2_.html)
+
+# Binary Project
+- I worked on converting words from binary. I did this by utilziing ASCII. In order to convert text into binary, you must first convert each letter into its ASCII value. For example, A is 65. You must then convert this decmimal value into binary. Here are short mini games to help you through the process.
+- [Binary Ideation](https:  //davidl0914.github.io/TheIdealGam/2023/11/15/binary-mini-game_IPYNB_2_.html)
 - [Binary Game](https://davidl0914.github.io/TheIdealGam//2023/11/15/mini-game-working.html)
+
+# Commit History
 - [Commit History](https://github.com/ak146?tab=overview&from=2023-12-01&to=2023-12-31)
+
+# CPT 
+* Andrew: API; matching skills
+* David: Blogging event; profile system
+* Kayden: Login/Signup
+* Matthew: Calendar system; Adding and sharing events
+* Ameer: Time tracker; See previous time data
+
+
 
   Andrew | Score | Grader Verification | Extras | Key Indicators: Blog, GitHub File(s) and Key Commits
 -- | -- | -- | -- | --
