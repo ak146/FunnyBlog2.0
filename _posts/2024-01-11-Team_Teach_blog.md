@@ -5,7 +5,7 @@ layout: post
 title: First half of tri
 description: Review of the first half of the tri
 type: tangibles
-courses: {'csp': {'week': 14}}
+courses: {'csp': {'week': 16}}
 ---
 
 ## Things I did
@@ -19,11 +19,52 @@ courses: {'csp': {'week': 14}}
 - [Commit History](https://github.com/ak146?tab=overview&from=2023-12-01&to=2023-12-31)
 
 # CPT 
+
+#### Team Members: Andrew, David, Kayden, Matthew
+
+####  Team Review Ticket Link: 
+
+### Team Member	Plans/Features:
 * Andrew: API; matching skills
 * David: Blogging event; profile system
 * Kayden: Login/Signup
 * Matthew: Calendar system; Adding and sharing events
 * Ameer: Time tracker; See previous time data
+
+<br>
+
+### David:
+Sample Profile UI Design
+![ProfileUIDesign](https://files.catbox.moe/5vurxp.png)
+
+<br>
+
+### Matthew:
+Sample Calendar Design
+![OverallSite](https://files.catbox.moe/kte5ah.png)
+![CalendarUIDesign](https://files.catbox.moe/byxjak.png)
+
+<br>
+
+### Kayden:
+
+<br>
+
+### Andrew:
+
+![CHAT](https://files.catbox.moe/pixrsh.png)
+<br>
+
+### Ameer:
+
+<br>
+
+### Time Plan:
+* Finish plans/UI design by Tuesday (1/16)
+* 
+
+### Changelog:
+* 1/12: Edited CPT plans; Added UI designs for user profile and calendar
 
 
 
