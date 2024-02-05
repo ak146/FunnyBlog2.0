@@ -40,7 +40,7 @@ categories: [C1.4]
             // check for response errors and display
             if (response.status !== 200) {
                 const errorMsg = 'Database response error: ' + response.status;
-                window.location.href = "http://127.0.0.1:4200/student/2024/01/31/403error.html";
+                window.location.href = "http://127.0.0.1:4200/FunnyBlog2.0/_posts/2024-02-04-403.md";
                 console.log(errorMsg);
                 const tr = document.createElement("tr");
                 const td = document.createElement("td");

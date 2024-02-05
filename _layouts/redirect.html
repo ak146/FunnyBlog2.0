@@ -4,10 +4,10 @@ layout: redirect
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Page</title>
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Page</title>
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -69,74 +69,69 @@ layout: redirect
         }
     </style>
 </head>
-<body>
+<script>
+    function login_user() {
+        // Your login_user function code here
+    }
 
-    <div class="signup-container">
-        <h2>Sign Up</h2>
+    function signup_user() {
+        // Set Signup endpoint
+        const signupUrl = 'http://127.0.0.1:8086/api/users/';
 
-        <form action="javascript:create_user()" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <input type="submit" value="Sign Up">
-        </form>
-
-        <p>Already have an account? <a href="http://localhost:4200/FunnyBlog2.0/c1.4/2024/02/04/login_with_redirect.html">Login here</a>.</p>
-    </div>
-
-</body>
-<script type="module">
-    // uri variable and options object are obtained from config.js
-
-
-    function create_user(){
-        // Set Authenticate endpoint
-        const url ='http://127.0.0.1:8086/api/users/';
-
-        // Set the body of the request to include login data from the DOM
-        const body = {
-            uid: document.getElementById("uid").value,
-            password: document.getElementById("password").value,
-            name: document.getElementById("Name").value,
+        // Set the body of the request to include signup data from the DOM
+        const signupBody = {
+            uid: document.getElementById("signup-uid").value,
+            password: document.getElementById("signup-password").value,
+            // Add other signup data as needed
         };
 
-        // Change options according to Authentication requirements
-        const authOptions = {
-            mode: 'cors', // no-cors, *cors, same-origin
-            credentials: 'include', // include, same-origin, omit
+        // Change options according to Signup requirements
+        const signupOptions = {
+            mode: 'cors',
+            credentials: 'include',
             headers: {
                 'Content-Type': 'application/json',
             },
-            method: 'POST', // Override the method property
-            cache: 'no-cache', // Set the cache property
-            body: JSON.stringify(body)
+            method: 'POST',
+            cache: 'no-cache',
+            body: JSON.stringify(signupBody)
         };
 
-        // Fetch JWT
-        fetch(url, authOptions)
-        .then(response => {
-            // handle error response from Web API
-            if (!response.ok) {
-                const errorMsg = 'Login error: ' + response.status;
-                console.log(errorMsg);
-                return;
-            }
-            // Success!!!
-            // Redirect to the database page
-            window.location.href = "http://127.0.0.1:4200/student/2024/01/30/Loginsystem.html"
-            ;
-        })
-        // catch fetch errors (ie ACCESS to server blocked)
-        .catch(err => {
-
-            console.error(err);
-        });
+        // Fetch to signup
+        fetch(signupUrl, signupOptions)
+            .then(response => {
+                if (!response.ok) {
+                    const errorMsg = 'Signup error: ' + response.status;
+                    console.log(errorMsg);
+                    return;
+}
+                // Signup success, now call the login_user function
+                login_user();
+            })
+            .catch(err => {
+                console.error(err);
+            });
     }
-
-    // Attach login_user to the window object, allowing access to form action
-    window.create_user = create_user;
 </script>
+</head>
+<body>
+
+<div class="signup-container">
+    <h2>Sign Up</h2>
+
+    <form action="javascript:void(0);" onsubmit="signup_user()">
+        <!-- Replace "uid" and "password" with your actual input IDs -->
+        <label for="signup-uid">Username:</label>
+        <input type="text" id="signup-uid" name="signup-uid" required>
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password" required>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <p>Already have an account? <a href="http://localhost:4200/FunnyBlog2.0/c1.4/2024/02/04/login_with_redirect.html">Login here</a>.</p>
+</div>
+
+</body>
 </html>
