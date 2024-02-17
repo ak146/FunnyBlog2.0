@@ -3,7 +3,7 @@ toc: True
 comments: True
 layout: post
 title: 3.8 Undecided Problems Team Teach
-courses: {'CSP': {'week': 15}}
+courses: {'CSP': {'week': 4}}
 type: hacks
 ---
 
