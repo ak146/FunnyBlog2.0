@@ -3,8 +3,9 @@ layout: post
 toc: True
 title: Digital Divide Team Teach
 description: Abdullah, Anika, Alisha, Sergi, Vance.
-courses: {'csp': {'week': 15}}
-type: hacks
+courses: {'csp': {'week': 13}}
+categories: []
+type: ccc
 ---
 
 ## Digital Divide

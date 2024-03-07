@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: 5.3 Computing Bias Lesson
 description: Computing Bias Lesson
-courses: {'csp': {'week': 15}}
+courses: {'csp': {'week': 13}}
 type: hacks
 ---
 

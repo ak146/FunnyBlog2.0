@@ -1,10 +1,5 @@
 ---
-toc: True
-comments: True
-layout: post
-title: Legal/Ethical Concerns
-courses: {'CSP': {'week': 15}}
-type: hacks
+
 ---
 
 ## Introduction
